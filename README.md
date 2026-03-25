@@ -41,6 +41,8 @@
     .modal-card{background:white;border-radius:12px;max-width:720px;width:100%;padding:18px;box-shadow:0 20px 60px rgba(15,23,42,0.35)}
     .receipt{background:#fafafa;border-radius:8px;padding:12px;border:1px solid #eee;font-family:monospace;font-size:14px;white-space:pre-wrap}
     @media (max-width:880px){main{grid-template-columns:1fr;margin-top:16px}header{height:48vh}.cart{position:relative;top:auto}}
+  body { line-height: 1.6; font-size: 16px; }
+  p { margin: 0 0 1em 0; }
   </style>
 </head>
 <body>
@@ -270,4 +272,3 @@
   </script>
 </body>
 </html>
-
