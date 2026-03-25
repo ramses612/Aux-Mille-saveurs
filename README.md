@@ -8,6 +8,8 @@
   <style>
     :root{--accent:#e76f51;--dark:#1f2733;--muted:#6b7280;--card:#ffffff;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;}
     *{box-sizing:border-box}
+    body { line-height: 1.6; font-size: 16px; }
+    p { margin: 0 0 1em 0; }
     body{margin:0;background:linear-gradient(180deg,#fbfbfc,#f1f5f9);color:var(--dark);line-height:1.4}
     header{position:relative;height:58vh;min-height:380px;display:flex;align-items:center;justify-content:center;
       background:linear-gradient(180deg, rgba(31,39,51,0.45), rgba(31,39,51,0.15)), url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;color:white}
@@ -41,8 +43,6 @@
     .modal-card{background:white;border-radius:12px;max-width:720px;width:100%;padding:18px;box-shadow:0 20px 60px rgba(15,23,42,0.35)}
     .receipt{background:#fafafa;border-radius:8px;padding:12px;border:1px solid #eee;font-family:monospace;font-size:14px;white-space:pre-wrap}
     @media (max-width:880px){main{grid-template-columns:1fr;margin-top:16px}header{height:48vh}.cart{position:relative;top:auto}}
-  body { line-height: 1.6; font-size: 16px; }
-  p { margin: 0 0 1em 0; }
   </style>
 </head>
 <body>
